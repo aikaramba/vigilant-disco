@@ -5,9 +5,15 @@
 .top-bar{
   .menu-text{
     color: $nav-text-color;
+    a{
+      font-weight: normal;
+    }
   }
   .menu > .menu-text > a{
     display: inline;
     padding: 0;
+  }
+  .active-link{
+    font-weight: bold;
   }
 }
