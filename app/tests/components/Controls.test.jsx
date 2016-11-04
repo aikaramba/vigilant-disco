@@ -26,5 +26,5 @@ describe('Controls', () => {
 
       expect($startButton.length).toBe(1);
     });
-  });
+});
 });
